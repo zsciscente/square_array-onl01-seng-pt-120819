@@ -1,7 +1,5 @@
 
 
 def square_array(ii)
-  ne = []
-  ii.each { |n|  ne << n**2 }
-  return ne
+  ii.each { |n| (n**2)! }
 end
